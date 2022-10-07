@@ -1,0 +1,227 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    margin: 0;
+    padding: 0;
+
+}
+.topnav {
+    background-color:black;
+    overflow: hidden;
+
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #222;
+    color:var(primary-color);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color:#FF0000;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  body{
+    background-color: #212529;
+    
+  }
+  #dropbtn{
+    padding:10px 10px;
+  }
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child),#searchBar {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .dropdown{
+      width: 100%;
+      display: none;
+      box-sizing: content-box;
+      margin: 2px;
+      padding: 0%;
+      
+    }
+
+    #dropbtn{
+      width: 30%;
+      height:fit-content;
+      padding: 4px 6px;
+  
+    }
+    .dropdown:hover .dropdown-content {
+      position: relative;
+      background-color: #222;
+      display: block;
+      width: 100%;
+    }
+    .dropdown-content a{
+      display: block;
+    }
+    .topnav #searchbar2{
+      display:inline-block;
+    }
+ 
+
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive a.searchBarbtn{
+      display: none;
+      float: left;
+      width: 100%;
+    }
+    .searchBar
+    #searchBar{
+      position: relative;
+    }
+    .topnav.responsive .dropdown{
+      display: block;
+    }
+    .topnav.responsive a ,.searchBar#searchBar {
+      float: none;
+      display: block;
+      text-align: left;
+  
+    }
+    .dropdown .dropbtn{
+      width: fit-content;
+    }
+    .dropdown .dropdown-content a{
+      color: dimgray;
+      margin-left: 20px;
+    }
+.topnav.responsive  .dropdown-content a:hover{
+      color: white;
+      background-color: #222;
+    
+    }
+  }
+
+  .topnav input{
+    float: right;
+    text-align: center;
+    
+    margin: 10px;
+      }
+
+    .topnav a.split{
+        float: right;
+      }
+.searchBar #searchBar{
+    all: unset;
+    width: 92%;
+    background-color: 	white;
+    margin: 0;
+}
+.searchBar{
+  background-color: 	white;
+ display: flex;
+
+
+ justify-content: flex-end;
+}
+.searchBar button{
+    all: unset;
+    background-color: 		#111;
+    color: white;
+
+    height: 80%;
+
+    margin: 0;
+    padding: 3px 6px;
+
+ 
+}
+.hidden{
+display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f2f2f2;
+
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#searchbar2{
+  display: none;
+  text-align: left;
+  background-color: white;
+  float: none;
+
+}
+iframe{
+  width: 100%;
+  height: 88vh;
+}
+::-webkit-scrollbar{
+  display: none;
+}

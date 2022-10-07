@@ -1,0 +1,110 @@
+*{
+    user-select: none;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
+body{
+    background-color:rgb(33,37,41);
+}
+
+/* .card .card-img-overlay .card-text2{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+} */
+.card.card-img{
+    box-shadow: 5px 4px 5px #111;
+    height: 40vh;
+}
+.card.text-bg-dark.mb-3.content{
+    width: 100vw;
+    margin-top: 20px;
+    background-color:#111;
+}
+.list-group{
+    margin-top: 20px;
+    background-color:rgb(33,37,41) ;
+}
+.list-group-item.downloadLink{
+
+    background-color: rgb(33,37,41);
+    padding: 0%;
+}
+.list-group-header{
+    color: aliceblue;
+    background-color: rgb(33,37,41);
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+}
+iframe{
+    height: 40vh;
+}
+.linkContent{
+    /* display: none; */
+    padding: 0%;
+}
+.show{
+    display: block;
+}
+.linkTitle{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+.list-group-item{
+    color: aliceblue;
+    background-color: rgb(33,37,41);
+}
+#youtubelink-container{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 15px;
+}
+#youtubelink{
+    display: inline-flex;
+}
+.telegramDownLink{
+    display: flex;
+    justify-content:space-between;
+}
+textarea{
+    all: unset;
+    height: 50px;
+    width: 90%;
+}
+.button-group{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+label.btn.btn-outline-primary{
+    color: white;
+    border: 1px solid #1b1e22;
+    margin: 0 2px;
+}
+label.btn.btn-outline-primary:active{
+    background-color: #111;
+    color: white;
+}
+label.btn.btn-outline-primary:hover{
+    background-color: #111;
+    color: white;
+}
+.cover{
+   background-color: rgb(33,37,41);
+}
+.movie-card-row{
+    background-color:rgb(33,37,41) ;
+    color: aliceblue;
+    width: 100vw;
+}
+img{
+    width: 100%;
+}
